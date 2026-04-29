@@ -30,7 +30,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 6vw;
+    font-size: 4em;
 }
 
 header > p {
