@@ -77,7 +77,6 @@ section > p {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     text-shadow: 5px 5px 5px black;
-    background-size: cover;
 }
 
 section#img01 {
