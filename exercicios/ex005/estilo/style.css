@@ -53,6 +53,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 1em;
 }
 
 section > p {
@@ -69,11 +70,12 @@ section > p {
     color: white;
     box-shadow:  inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .imagem > p{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     text-shadow: 5px 5px 5px black;
