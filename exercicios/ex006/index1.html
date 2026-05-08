@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.2em;
+        }
+
+        table {
+            width: 600px;
+            height: 250px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            
+        }
+
+        th {
+            color: white;
+            background-color: dimgray;
+        }
+        
+        .titulo {
+            font-weight: bold;
+        }
+
+        .total  {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        .vtotal {
+            color: white;
+            background-color: dimgray;
+            font-weight: bold;
+        }
+
+        .disci {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        .test11 {
+            background-color: rgb(167, 167, 167);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela treinamento</h1>
+    <table>
+        <colgroup>
+            <col class="test11">
+        </colgroup>
+        <caption>Conteúdo da Tabela</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="titulo" rowspan="4">Exatas</td>
+                <td class="disci">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disci">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disci">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disci">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="total" colspan="4">Média de Exatas</th>
+                <td class="vtotal">0.0</td>
+            </tr>
+            <tr>
+                <td class="titulo"  rowspan="2">Humanas</td>
+                <td class="disci">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disci">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="total" colspan="4">Média de humas</th>
+                <td class="vtotal">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
