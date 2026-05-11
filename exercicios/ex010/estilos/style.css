@@ -49,10 +49,14 @@ body, html {
     padding: 10px;
  }
 
- div#formulario > h1 {
+div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
  }
+
+div#formulario > p {
+    margin: 8px 0px;
+    }
 
 div#formulario {
     font-size: 0.8em;
@@ -126,3 +130,4 @@ form > a.botao:hover {
 form > a.botao > span {
     font-size: 1.0em;
 }
+
