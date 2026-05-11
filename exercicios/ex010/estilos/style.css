@@ -23,16 +23,16 @@ body, html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 515px;
+    width: 300px;
+    height: 600px;
     border-radius: 20px;
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
  }
 
  section#login > div#imagem {
