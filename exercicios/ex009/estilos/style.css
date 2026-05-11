@@ -34,11 +34,14 @@ menu > ul > li > a {
     text-align: center;
     background-color: rgb(71, 71, 71);
     color: white;
-    border-top: 2px solid gray;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.2s;
 }
 
 menu > ul > li > a:hover {
     background-color: gray;
+    border: 1px solid rgba(0, 0, 0, 0.356);
 }
 
 main {
