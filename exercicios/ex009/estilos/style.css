@@ -69,7 +69,3 @@ span#burguer {
     cursor: pointer;
 }
 
-span#burguer:hover {
-    background-color: white;
-    color: black;
-}
