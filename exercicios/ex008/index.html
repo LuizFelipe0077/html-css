@@ -7,6 +7,69 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <p></p>
+    <form action="#" method="post" autocomplete="on">
+        <p>
+            <label for="inumero1">Numero:</label>
+
+            <input type="range" 
+            name="numero1" 
+            id="inumero1" 
+            required 
+            min="0" 
+            max="100" 
+            value="0" 
+            step="10" 
+            oninput="somar()">
+
+            <output id="ival">0</output>
+        </p>
+        <p>
+            <label for="inumero2">Número 1:</label>
+
+            <input 
+            type="number" 
+            name="numero2" 
+            id="inumero2" 
+            min="1" 
+            max="100" 
+            required 
+            oninput="somar()">
+        </p>
+    
+        <p>
+            <label for="inumero3">Número 2:</label>
+
+            <input 
+            type="number" 
+            name="numero3" 
+            id="inumero3" 
+            min="0" 
+            max="100" 
+            required 
+            oninput="somar()">
+        </p>
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+    <script>
+        function somar() {
+            ival.value = inumero1.value
+
+            let n1 = Number(inumero1.value)
+            let n2 = Number(inumero2.value)
+            let n3 = Number(inumero3.value)
+
+            let total = n1 * n2 + n3
+
+            isoma.value = total
+        } 
+    </script>
 </body>
 </html>
