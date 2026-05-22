@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        .bloco1 {
+            background-color: coral;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .item {
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            flex-basis: 100px;
+        }
+
+        #i1 {
+            order: 1;
+            flex: 0 1 100px;
+        }
+
+        #i2 {
+            order: 2;
+            flex: 1 0 100px; 
+        }
+
+        #i3 {
+            order: 3;
+            flex: 0 1 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco1">
+        <div class="item"  id="i1">A</div>
+        <div class="item"  id="i2">B</div>
+        <div class="item"  id="i3">C</div>    
+        </div> 
+</body>
+</html>
