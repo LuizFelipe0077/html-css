@@ -3,13 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecercício</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Sistema de Multas</h1>
-    <input type="number" name="velocidade" id="velocidade" placeholder="Digite a velocidade do carro">
-    <button onclick="verificarVelocidade()" value="Verificar">Verificar</button>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            Agora são
+        </div>
+        <div id="foto">
+            <img id="imagem" src="img/manhã.jpg" alt="Foto do dia">
+
+        </div>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="carregar2()">
+            </p>
+            <p id="res">
+                Preencha os dados acima para ver o resultado!
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Luiz Felipe</p>
+    </footer>
     <script src="ex.js"></script>
-    <div id="resultado"></div>
 </body>
 </html>
